@@ -2,11 +2,9 @@ server:
   port: 8888
 
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          git:
-            url: https://github.com/kangmini/msa-with-spring-cloud/config-repo
+        git:
+          uri: https://github.com/kangmini/msa-with-spring-cloud.git
+          search-paths: config-repo
