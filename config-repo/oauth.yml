@@ -33,5 +33,5 @@ spring:
   profile: dev
 
 kangmini:
-  a: dev aaa
-  b: dev bbbb
+  a: devdev
+  b: dev bbbbb
