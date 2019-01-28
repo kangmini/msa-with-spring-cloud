@@ -27,11 +27,3 @@ logging:
 kangmini:
   a: aaa
   b: bbbbb
-
----
-spring:
-  profile: dev
-
-kangmini:
-  a: dev aaa modi
-  b: dev bbbb modi
